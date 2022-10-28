@@ -1,8 +1,24 @@
 body {
-  padding: 50px;
+  padding: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+a.nav-link {
+  color: lightblue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+a.hover{
+  text-shadow:  3px 3px 10px darkblue;
+  opacity: 5px;
+}
+
+a.visited{
+  color: lightblue;
+  text-decoration: underline;
 }
