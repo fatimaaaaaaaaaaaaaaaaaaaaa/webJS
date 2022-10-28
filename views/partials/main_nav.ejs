@@ -1,0 +1,52 @@
+<!-- nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Fatima Kaleem</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+        <% if (title == "Home") {%>
+          <a class="nav-link active" href="/Home"> 
+          <% } else { %>
+          <a class="nav-link" href ="Home">
+          <% } %>  
+          <i class="fa-solid fa-house-crack"></i>Home</a>
+        </li>
+       
+        <li class="nav-item">
+        <% if (title == "AboutMe") {%>
+          <a class="nav-link active" href="/AboutMe">
+          <% } else { %>
+          <a class="nav-link" href="/AboutMe">
+          <% } %>
+          <i class="fa-solid fa-person-dress"></i>About Me</i></a>
+        </li>
+      
+
+    
+        <li class="nav-item">
+        <% if (title == "Projects") {%>
+          <a class="nav-link active"  href="/Projects">
+          <% } else { %>
+          <a class="nav-link"  href="/Projects">
+          <% } %>
+          <i class="fa-solid fa-list-check"></i>Projects</a>
+        </li>
+
+        <li class="nav-item">
+        <% if (title == "ContactMe") {%>
+          <a class="nav-link active"  href="/ContactMe">
+          <% } else { %>
+          <a class="nav-link" href="/ContactMe">
+          <% } %>
+          <i class="fa-solid fa-paper-plane"></i>Contact Me</i></a>
+        </li>
+
+        
+    </div>
+  </div>
+</nav>
