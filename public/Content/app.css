@@ -36,5 +36,23 @@ a.visited{
   padding: 125px;
 }
 
-
+#fwrapper{
+  color: darkblue;
+  text-align: center;
+  border-radius: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: lightblue;
+  padding: 250px;
+}
   
+#jumbotronfluid{
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 20px;
+}
+
+#jumbotronfluiid{
+  text-align: center;
+  border-radius: 20px;
+  background-color: lightsteelblue;
+}
