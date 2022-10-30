@@ -2,10 +2,23 @@
 <%- include partials/main_nav.ejs%>
 <main>
 <div class="jumbotron">
-  <h1 class="display-4"><%= title%></h1>
-  <p class="lead">Welcome to my webpage. To navigate around this site, utilize the bar above!</p>
-  <hr class="my-4">
+    <div id = "jumbotronfluid">
+    <h1 class="container"><%= title%>'s Portfolio</h1>
+    <p class="lead">Welcome to my webpage. To navigate around this site, utilize the bar above!</p>
+  </div>
 </div>
+      <div id = "hwrapper">
+          <img src="Assets/sky.jpg" alt="sky" style="width:1050px;height:500px;" class = "center">
+      </div>
+  <div class="jumbotronfluid">
+      <div id = "jumbotronfluid">
+          <div class="container">
+              <h1 class="display-4"></h1>
+              <p class="lead"></p>
+          </div>
+      </div>
+  </div>
+
 </main>
 <%- include partials/bottom_nav.ejs%>
 <%- include partials/footer.ejs%>

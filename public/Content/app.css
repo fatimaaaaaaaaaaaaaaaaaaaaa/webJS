@@ -28,18 +28,19 @@ a.visited{
 }
 
 #wrapper{
-  color: darkblue;
+  color: black;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 100px;
+  font-size: 20px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: lightblue;
-  padding: 125px;
+  
 }
 
 #fwrapper{
   color: darkblue;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 0px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: lightblue;
   padding: 250px;
@@ -55,4 +56,24 @@ a.visited{
   text-align: center;
   border-radius: 20px;
   background-color: lightsteelblue;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#images{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#vid{
+  float:left;
+  width: 33.33%;
+  padding: 5px;
 }

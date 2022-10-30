@@ -5,20 +5,29 @@
     <body>
         <!-- introductory paragraph about me-->
             <div id="wrapper">  
-                <h4>Hello! My name is Fatima Kaleem, im in Networking & IT security, and enjoy learning
-                about programming in Mr. Sheikh's class. Some of my hobbies include; playing badminton,
-                skating, kayaking, and gaming! Some achievements that I've aquired are completing my CCNA, 
-                which is a certificate for routing & switching networks. Recently I attended a cybersecurity
-                capture the flag event hosted by SunLife. This experience taught me alot about cybersecurity 
-                profeshionals and the work they do. </h4>
-        
-            <!-- inputting image and video while configuring autplay and using dimensions-->
-            <img src="me.jpg" alt="Me" style="width:400px;height:250px;">
-            <video width="400" height="250" controls autoplay muted> 
-                <source src="zoro.mp4" type="video/mp4">
-                <p><input type="play" value="Play Video"/></p>
-            </video>
+                <div class="jumbotronfluid">
+                    <div class="container">
+                        <h3 class="display-4">About Me</h3>
+                        <p class="lead">Hello! My name is Fatima Kaleem, I'm in Networking & IT Security
+                        and enjoy learning about programming in Mr. Sheikh's lectures. Some of my hobbies
+                        include; playing badminton, skating, kayaking and gaming. Some acheivments that I've
+                        aquired are completing my CCNA, which is a certificate for routing and switching networks.
+                        Recently I attended a cybersecurity capture the flag event hosted by SunLife. This experience
+                        taught me alot about cybersecurtiy professionals and how they perform in their fields.</p>
+                    </div>
+                </div>
             </div> 
+
+        <!-- inputting image and video while configuring autplay and using dimensions-->
+            <div id = "images">
+                <img src= Assets/me.jpg alt="Me" style="width:400px;height:290px;">
+            </div>
+            </div id = "vid">
+                <video width="400" height="250" controls autoplay muted> 
+                    <source src="Assets/zoro.mp4 type="video="mp4">
+                    <p><input type="play" value="Play Video"/></p>
+                </video>
+            </div>
     </body>
 <%- include partials/bottom_nav.ejs%>
 <%- include partials/footer.ejs%>
