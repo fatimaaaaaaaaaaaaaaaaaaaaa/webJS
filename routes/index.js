@@ -26,5 +26,15 @@ router.get('/ContactMe', function(req, res, next) {
   res.render('ContactMe', { title: 'Contact me' });
 });
 
+/* GET linkedIn page. */
+router.get('/LinkedIn', function(req, res, next) {
+  res.render('https://www.linkedin.com/in/fatima-kaleem-44630320a/', { title: 'LinkedIn' });
+});
+
+/* GET github page. */
+router.get('/github', function(req, res, next) {
+  res.render('https://github.com/fatimaaaaaaaaaaaaaaaaaaaaa', { title: 'github' });
+});
+
 
 module.exports = router;

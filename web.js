@@ -11,3 +11,8 @@ app.listen(port, () => {
 });
 
 app.use(Express.static(__dirname+'/public'));
+app.get('/playvideo', (req,res) => {
+  const range = req.headers.range
+  console.log(range)
+
+})

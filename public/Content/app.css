@@ -40,10 +40,11 @@ a.visited{
 #fwrapper{
   color: darkblue;
   text-align: center;
-  border-radius: 0px;
+  border-radius: 50px;
+  margin-right: auto;
+  margin-left: auto;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: lightblue;
-  padding: 250px;
 }
   
 #jumbotronfluid{
@@ -65,15 +66,14 @@ a.visited{
   width: 50%;
 }
 
-#images{
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.row::after{
+  display:table;
+  clear: both;
+  content: "";
 }
 
-#vid{
+.column{
   float:left;
-  width: 33.33%;
+  width: 50%;
   padding: 5px;
 }

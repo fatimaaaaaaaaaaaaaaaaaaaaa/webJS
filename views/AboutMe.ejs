@@ -19,15 +19,13 @@
             </div> 
 
         <!-- inputting image and video while configuring autplay and using dimensions-->
-            <div id = "images">
-                <img src= Assets/me.jpg alt="Me" style="width:400px;height:290px;">
-            </div>
-            </div id = "vid">
-                <video width="400" height="250" controls autoplay muted> 
-                    <source src="Assets/zoro.mp4 type="video="mp4">
-                    <p><input type="play" value="Play Video"/></p>
-                </video>
-            </div>
+            <div class = "row">
+                <div class = "column">
+                    <img src= Assets/me.jpg alt="Me" style="width:400px;height:290px;">
+                </div>
+                </div class = column>
+                <video src = Assets/zoro.mp4 width="500" height="600" controls autoplay muted></video>
+                </div>
     </body>
 <%- include partials/bottom_nav.ejs%>
 <%- include partials/footer.ejs%>
