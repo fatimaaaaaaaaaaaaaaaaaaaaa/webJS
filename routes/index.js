@@ -4,31 +4,26 @@ var router = express.Router();
 /* GET home page. */
 router.get('/Home', function(req, res, next) {
   res.render('index', { title: "Fatima Kaleem" });
-  res.sendFile('home.ejs')
 });
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home' });
-  res.sendFile('home.ejs')
+  res.render('index', { title: 'Home' })
 });
 
 /* GET About Me page. */
 router.get('/AboutMe', function(req, res, next) {
-  res.render('index', { title: 'About Me' });
-  res.sendFile('AboutMe.ejs')
+  res.render('AboutMe', { title: 'About Me' });
 });
 
 /* GET Projects page. */
 router.get('/Projects', function(req, res, next) {
-  res.render('index', { title: 'Projects' });
-  res.sendFile('Projects.ejs')
+  res.render('Projects', { title: 'Projects' });
 });
 
 /* GET Contact Me page. */
 router.get('/ContactMe', function(req, res, next) {
-  res.render('index', { title: 'Contact me' });
-  res.sendFile('ContactMe.ejs')
+  res.render('ContactMe', { title: 'Contact me' });
 });
 
 

@@ -26,4 +26,15 @@ a.visited{
 .bg-dark{
   color: green;
 }
+
+#wrapper{
+  color: darkblue;
+  text-align: center;
+  border-radius: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: lightblue;
+  padding: 125px;
+}
+
+
   
